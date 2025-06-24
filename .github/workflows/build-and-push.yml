@@ -29,5 +29,5 @@ jobs:
   container-image-release:
     name: Make container image release
     needs: [build-and-test]
-    uses: nrkno/sofie-github-workflows/.github/workflows/container-build-push.yml@main
+    uses: Sofie-Automation/sofie-github-workflows/.github/workflows/container-build-push.yml@main
 
